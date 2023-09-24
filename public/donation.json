@@ -1,0 +1,147 @@
+[
+    {
+      "id": 1,
+      "img": "https://i.postimg.cc/K8fKVBCN/Health.png",
+      "title": "Clean Water for Children",
+      "category": "Health",
+      "category_bg": "#AEC8FF",
+      "card_bg": "#D9E5FF",
+      "description": "Clean Water for Children is a humanitarian initiative dedicated to providing clean and safe drinking water to children in underserved communities. We believe that access to clean water is a basic human right and a fundamental necessity for healthy and thriving communities. Our mission is to install sustainable water purification systems, educate communities about proper water hygiene, and ensure that every child has the opportunity to grow up healthy and free from waterborne diseases. Join us in making a difference and ensuring a brighter future for children everywhere.",
+      "text_bg": "#0052FF",
+      "btn_bg": "#0052FF",
+      "price": 189
+    },
+    {
+      "id": 2,
+      "img": "https://i.postimg.cc/PrL2drdY/Rectangle-4288.png",
+      "title": "Good Education",
+      "category": "Education",
+      "category_bg": "#FFC3C5",
+      "card_bg": "#FFE4E4",
+      "description": "Good Education is a nonprofit organization dedicated to improving access to quality education for underserved communities. We believe that education is the key to unlocking one's full potential and breaking the cycle of poverty. Our mission is to build schools, provide educational resources, and support teachers in delivering engaging and meaningful lessons. We are committed to creating a brighter future for children by empowering them with knowledge and opportunities for growth.",
+      "text_bg": "#FF444A",
+      "btn_bg": "#FF444A",
+      "price": 129
+    },
+    {
+      "id": 3,
+      "img": "https://i.postimg.cc/Prps0jcF/Clothing.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothes",
+      "category_bg": "#D4ECC1",
+      "card_bg": "#EBF692",
+      "description": "The Used Clothing Drive is a community initiative aimed at collecting and redistributing gently used clothing to those in need. We believe in the power of recycling and extending the life of clothing items while helping individuals and families facing financial challenges. Our volunteers work tirelessly to sort and distribute clothing to homeless shelters, schools, and community centers. By donating to our cause, you are not only reducing textile waste but also making a positive impact on the lives of those less fortunate.",
+      "text_bg": "#79C23F",
+      "btn_bg": "#79C23F",
+      "price": 199
+    },
+    {
+      "id": 4,
+      "img": "https://i.postimg.cc/MHz0VqBZ/Food.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "category_bg": "#FDD2C4",
+      "card_bg": "#FEEAE3",
+      "description": "Better Food for Everyone is a movement dedicated to improving access to nutritious and affordable food for all. We believe that everyone deserves access to fresh and healthy food choices to lead a vibrant and fulfilling life. Our mission is to establish community gardens, support local farmers, and educate communities about sustainable food practices. Together, we can create a world where no one goes to bed hungry, and everyone has the opportunity to enjoy delicious and nourishing meals.",
+      "text_bg": "#F87147",
+      "btn_bg": "#F87147",
+      "price": 149
+    },
+    {
+      "id": 5,
+      "img": "https://i.postimg.cc/MHz0VqBZ/Food.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "category_bg": "#FDD2C4",
+      "card_bg": "#FEEAE3",
+      "description": "Better Food for Everyone is a movement dedicated to improving access to nutritious and affordable food for all. We believe that everyone deserves access to fresh and healthy food choices to lead a vibrant and fulfilling life. Our mission is to establish community gardens, support local farmers, and educate communities about sustainable food practices. Together, we can create a world where no one goes to bed hungry, and everyone has the opportunity to enjoy delicious and nourishing meals.",
+      "text_bg": "#F87147",
+      "btn_bg": "#F87147",
+      "price": 269
+    },
+    {
+      "id": 6,
+      "img": "https://i.postimg.cc/Prps0jcF/Clothing.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothes",
+      "category_bg": "#D4ECC1",
+      "card_bg": "#EBF692",
+      "description": "The Used Clothing Drive is a community initiative aimed at collecting and redistributing gently used clothing to those in need. We believe in the power of recycling and extending the life of clothing items while helping individuals and families facing financial challenges. Our volunteers work tirelessly to sort and distribute clothing to homeless shelters, schools, and community centers. By donating to our cause, you are not only reducing textile waste but also making a positive impact on the lives of those less fortunate.",
+      "text_bg": "#79C23F",
+      "btn_bg": "#79C23F",
+      "price": 179
+    },
+    {
+      "id": 7,
+      "img": "https://i.postimg.cc/PrL2drdY/Rectangle-4288.png",
+      "title": "Good Education",
+      "category": "Education",
+      "category_bg": "#FFC3C5",
+      "card_bg": "#FFE4E4",
+      "description": "Good Education is a nonprofit organization dedicated to improving access to quality education for underserved communities. We believe that education is the key to unlocking one's full potential and breaking the cycle of poverty. Our mission is to build schools, provide educational resources, and support teachers in delivering engaging and meaningful lessons. We are committed to creating a brighter future for children by empowering them with knowledge and opportunities for growth.",
+      "text_bg": "#FF444A",
+      "btn_bg": "#FF444A",
+      "price": 249
+    },
+    {
+      "id": 8,
+      "img": "https://i.postimg.cc/K8fKVBCN/Health.png",
+      "title": "Clean Water for Children",
+      "category": "Health",
+      "category_bg": "#AEC8FF",
+      "card_bg": "#D9E5FF",
+      "description": "Clean Water for Children is a humanitarian initiative dedicated to providing clean and safe drinking water to children in underserved communities. We believe that access to clean water is a basic human right and a fundamental necessity for healthy and thriving communities. Our mission is to install sustainable water purification systems, educate communities about proper water hygiene, and ensure that every child has the opportunity to grow up healthy and free from waterborne diseases. Join us in making a difference and ensuring a brighter future for children everywhere.",
+      "text_bg": "#0052FF",
+      "btn_bg": "#0052FF",
+      "price": 169
+    },
+    {
+      "id": 9,
+      "img": "https://i.postimg.cc/K8fKVBCN/Health.png",
+      "title": "Clean Water for Children",
+      "category": "Health",
+      "category_bg": "#AEC8FF",
+      "card_bg": "#D9E5FF",
+      "description": "Clean Water for Children is a humanitarian initiative dedicated to providing clean and safe drinking water to children in underserved communities. We believe that access to clean water is a basic human right and a fundamental necessity for healthy and thriving communities. Our mission is to install sustainable water purification systems, educate communities about proper water hygiene, and ensure that every child has the opportunity to grow up healthy and free from waterborne diseases. Join us in making a difference and ensuring a brighter future for children everywhere.",
+      "text_bg": "#0052FF",
+      "btn_bg": "#0052FF",
+      "price": 209
+    },
+    {
+      "id": 10,
+      "img": "https://i.postimg.cc/PrL2drdY/Rectangle-4288.png",
+      "title": "Good Education",
+      "category": "Education",
+      "category_bg": "#FFC3C5",
+      "card_bg": "#FFE4E4",
+      "description": "Good Education is a nonprofit organization dedicated to improving access to quality education for underserved communities. We believe that education is the key to unlocking one's full potential and breaking the cycle of poverty. Our mission is to build schools, provide educational resources, and support teachers in delivering engaging and meaningful lessons. We are committed to creating a brighter future for children by empowering them with knowledge and opportunities for growth.",
+      "text_bg": "#FF444A",
+      "btn_bg": "#FF444A",
+      "price": 119
+    },
+    {
+      "id": 11,
+      "img": "https://i.postimg.cc/Prps0jcF/Clothing.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothes",
+      "category_bg": "#D4ECC1",
+      "card_bg": "#EBF692",
+      "description": "The Used Clothing Drive is a community initiative aimed at collecting and redistributing gently used clothing to those in need. We believe in the power of recycling and extending the life of clothing items while helping individuals and families facing financial challenges. Our volunteers work tirelessly to sort and distribute clothing to homeless shelters, schools, and community centers. By donating to our cause, you are not only reducing textile waste but also making a positive impact on the lives of those less fortunate.",
+      "text_bg": "#79C23F",
+      "btn_bg": "#79C23F",
+      "price": 179
+    },
+    {
+      "id": 12,
+      "img": "https://i.postimg.cc/MHz0VqBZ/Food.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "category_bg": "#FDD2C4",
+      "card_bg": "#FEEAE3",
+      "description": "Better Food for Everyone is a movement dedicated to improving access to nutritious and affordable food for all. We believe that everyone deserves access to fresh and healthy food choices to lead a vibrant and fulfilling life. Our mission is to establish community gardens, support local farmers, and educate communities about sustainable food practices. Together, we can create a world where no one goes to bed hungry, and everyone has the opportunity to enjoy delicious and nourishing meals.",
+      "text_bg": "#F87147",
+      "btn_bg": "#F87147",
+      "price": 269
+    }
+  ]
+  
