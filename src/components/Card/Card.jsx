@@ -1,5 +1,4 @@
-import { NavLink } from "react-router-dom";
-
+/* eslint-disable react/prop-types */
 const Card = ({ card }) => {
   const { img, title, category, card_bg, category_bg, text_bg } = card;
 
