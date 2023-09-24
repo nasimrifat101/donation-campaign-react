@@ -10,15 +10,20 @@ import Home from './components/Home/Home';
 import DonationDetails from './components/DonationDetails/DonationDetails';
 import Donation from './components/Donation/Donation';
 import Statistcs from './components/Statistcs/Statistcs';
+import Root from './components/Root/Root';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home></Home>,
+    element: <Root></Root>,
     errorElement: <ErrorPage></ErrorPage>,
     children:  [
       {
-        path:'/details',
+        path: "/",
+        element: <Home></Home>,
+      },
+      {
+        path:'/details/:id',
         element:<DonationDetails></DonationDetails>
       },
       {
