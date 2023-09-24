@@ -6,6 +6,12 @@ const getSavedDonation = () => {
   return [];
 };
 
+const hasDonated = (id) => {
+    const storedDonationIds = getSavedDonation();
+    return storedDonationIds.includes(id);
+  };
+  
+
 const saveDonation = (id) => {
     const storedDonation = getSavedDonation();
     const exist = storedDonation.find(donationid => donationid === id);
@@ -15,4 +21,4 @@ const saveDonation = (id) => {
     }
 };
 
-export { getSavedDonation, saveDonation };
+export { getSavedDonation, saveDonation, hasDonated };

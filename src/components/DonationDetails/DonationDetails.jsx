@@ -1,21 +1,25 @@
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useLoaderData, useParams } from "react-router-dom";
-import { saveDonation } from "../../utility/utility";
+import { saveDonation, hasDonated } from "../../utility/utility";
 
 const DonationDetails = () => {
-
   const cards = useLoaderData();
   const { id } = useParams();
   const idint = parseInt(id);
   const card = cards.find((card) => card.id === idint);
+  const isDonated = hasDonated(idint);
 
   const { img, title, description, price, btn_bg } = card;
 
-  const handleDonateBtn = ()=>{
-    saveDonation(idint);
-    toast('Donation Successful');
-  }
+  const handleDonateBtn = () => {
+    if (!isDonated) {
+      saveDonation(idint);
+      toast("Donation Successful");
+    } else {
+      toast("Already Donated Once");
+    }
+  };
 
   return (
     <div className="relative">

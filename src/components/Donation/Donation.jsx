@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import { getSavedDonation } from "../../utility/utility";
+import DonationCard from "../DonationCard/DonationCard";
 
 const Donation = () => {
     const [donationsGiven, setDonationsGiven] = useState([]);
@@ -21,8 +22,10 @@ const Donation = () => {
     }, [donations]);
 
     return (
-        <div>
-            sakdkljdk {donationsGiven.length}
+        <div className="grid grid-cols-2 gap-4 mt-10">
+            {
+                donationsGiven.map(donation => <DonationCard donation={donation} key={donation.id}></DonationCard>)
+            }
         </div>
     );
 };
