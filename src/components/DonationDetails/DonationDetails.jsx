@@ -1,13 +1,21 @@
-import React from 'react';
-import { useLoaderData, useParams } from 'react-router-dom';
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { useLoaderData, useParams } from "react-router-dom";
+import { saveDonation } from "../../utility/utility";
 
 const DonationDetails = () => {
+
   const cards = useLoaderData();
   const { id } = useParams();
   const idint = parseInt(id);
   const card = cards.find((card) => card.id === idint);
 
   const { img, title, description, price, btn_bg } = card;
+
+  const handleDonateBtn = ()=>{
+    saveDonation(id);
+    toast('Donation Successful');
+  }
 
   return (
     <div className="relative">
@@ -19,6 +27,7 @@ const DonationDetails = () => {
         <button
           style={{ backgroundColor: btn_bg }}
           className="btn text-white border-none"
+          onClick={handleDonateBtn}
         >
           <span>Donate</span> ${price}
         </button>
@@ -27,6 +36,7 @@ const DonationDetails = () => {
         <h2 className="text-4xl font-semibold">{title}</h2>
         <p className="text-lg py-5">{description}</p>
       </div>
+      <ToastContainer />
     </div>
   );
 };
