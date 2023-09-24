@@ -13,7 +13,7 @@ const DonationDetails = () => {
   const { img, title, description, price, btn_bg } = card;
 
   const handleDonateBtn = ()=>{
-    saveDonation(id);
+    saveDonation(idint);
     toast('Donation Successful');
   }
 
