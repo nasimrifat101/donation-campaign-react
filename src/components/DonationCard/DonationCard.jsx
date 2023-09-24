@@ -21,7 +21,7 @@ const DonationCard = ({ donation }) => {
       >
        <div className="flex">
        <div>
-          <img src={img_squre} className="w-48 " alt={title} />
+          <img src={img_squre} className="w-48 h-44 " alt={title} />
         </div>
         <div className="card-body">
           <h2 className="text-sm p-1 w-fit rounded-md" style={categoryStyle}>
