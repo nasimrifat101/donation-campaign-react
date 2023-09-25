@@ -1,26 +1,19 @@
-import { useEffect, useState } from "react";
+/* eslint-disable react/prop-types */
+
 import Card from "../Card/Card";
-import { Link } from "react-router-dom";
 
-const Cards = () => {
+const Cards = ({ cards, searchQuery }) => {
+  const filteredCards = cards.filter((card) =>
+  card.category.toLowerCase().includes(searchQuery.toLowerCase())
+);
 
-const [cards, setCards] = useState([])
-
-useEffect(()=>{
-    fetch('donation.json')
-    .then(res => res.json())
-    .then(data => setCards(data))
-},[])
 
     return (
-        <div className="grid mx-10 md:grid-cols-2 lg:grid-cols-4 lg:mx-0 gap-4 mt-20">
+        <div className="grid mx-10 md:grid-cols-2 lg:grid-cols-4 lg:mx-0 gap-4 mt-10">
            
-           {
-           cards.map((card) => (
+           {filteredCards.map((card) => (
         <div key={card.id}>
-          <Link to={`/details/${card.id}`}>
-            <Card card={card}></Card>
-          </Link>
+          <Card card={card}></Card>
         </div>
       ))}
             
