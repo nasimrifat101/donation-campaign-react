@@ -22,7 +22,7 @@ const ErrorPage = () => {
         </div>
       </div>
       <div>
-        <img className="h-96" src="/src/assets/images/ghost.png" alt="" />
+        <img className="h-96" src="/src/assetss/images/ghost.png" alt="" />
       </div>
     </div>
   );
