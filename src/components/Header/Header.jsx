@@ -22,7 +22,7 @@ const Header = () => {
   );
   return (
     <div>
-      <div className="navbar">
+      <div className="navbar flex flex-col space-y-4 md:flex-row md:space-y-0">
         <div className="navbar-start">
           <Link to="/">
             <img className="w-48" src="/src/assets/Logo.png" alt="" />

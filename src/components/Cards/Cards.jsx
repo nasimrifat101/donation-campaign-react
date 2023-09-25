@@ -13,7 +13,7 @@ useEffect(()=>{
 },[])
 
     return (
-        <div className="grid grid-cols-4 gap-4 mt-20">
+        <div className="grid mx-10 md:grid-cols-2 lg:grid-cols-4 lg:mx-0 gap-4 mt-20">
            
            {
            cards.map((card) => (

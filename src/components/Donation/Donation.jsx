@@ -22,7 +22,7 @@ const Donation = () => {
     }, [donations]);
 
     return (
-        <div className="grid grid-cols-2 gap-4 mt-10">
+        <div className="grid mx-5 lg:mx-0 md:grid-cols-2 gap-4 mt-10">
             {
                 donationsGiven.map(donation => <DonationCard donation={donation} key={donation.id}></DonationCard>)
             }

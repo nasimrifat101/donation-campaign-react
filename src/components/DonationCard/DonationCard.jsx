@@ -27,7 +27,7 @@ const DonationCard = ({ donation }) => {
           <h2 className="text-sm p-1 w-fit rounded-md" style={categoryStyle}>
             {category}
           </h2>
-          <p className="text-lg font-semibold" style={{ color: text_bg }}>
+          <p className="text-xs md:text-md lg:text-lg font-semibold" style={{ color: text_bg }}>
             {title}
           </p>
           <p className="text-md font-semibold" style={{ color: text_bg }}>${price}</p>
