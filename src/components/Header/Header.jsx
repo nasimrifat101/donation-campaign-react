@@ -4,13 +4,19 @@ const Header = () => {
   const links = (
     <>
       <li>
-        <NavLink to="/">Home</NavLink>
+        <NavLink   className={({ isActive, isPending }) =>
+                      isPending ? "pending" : isActive ? "text-[#FF444A] underline" : ""
+                       } to="/">Home</NavLink>
       </li>
       <li>
-        <NavLink to="/donation">Donation</NavLink>
+        <NavLink   className={({ isActive, isPending }) =>
+                      isPending ? "pending" : isActive ? "text-[#FF444A] underline" : ""
+                       } to="/donation">Donation</NavLink>
       </li>
       <li>
-        <NavLink to="/statistics">Statistics</NavLink>
+        <NavLink   className={({ isActive, isPending }) =>
+                      isPending ? "pending" : isActive ? "text-[#FF444A] underline" : ""
+                       } to="/statistics">Statistics</NavLink>
       </li>
     </>
   );
@@ -23,7 +29,7 @@ const Header = () => {
           </Link>
         </div>
         <div className="navbar-end flex">
-          <ul className="menu menu-horizontal space-x-6">{links}</ul>
+          <ul className="menu-horizontal space-x-6">{links}</ul>
         </div>
       </div>
     </div>
