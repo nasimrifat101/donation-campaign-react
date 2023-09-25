@@ -10,7 +10,7 @@ const Cards = ({ cards, searchQuery }) => {
 
 
     return (
-        <div className="grid mx-10 md:grid-cols-2 lg:grid-cols-4 lg:mx-0 gap-4 mt-10">
+        <div className="grid mx-10 md:grid-cols-2 lg:grid-cols-4 lg:mx-0 gap-4 mt-10 mb-20">
            
            {filteredCards.map((card) => (
         <div key={card.id}>
