@@ -1,31 +1,56 @@
-import { NavLink } from "react-router-dom";
+import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const MobileNav = () => {
+  const [isNavOpen, setIsNavOpen] = useState(false);
+
+  const toggleNav = () => {
+    setIsNavOpen(!isNavOpen);
+  };
+
   return (
-    <div>
-      <div className="navbar bg-base-100">
-        <div className="flex-1">
-        <img className="w-48" src="https://i.postimg.cc/WpJRYv3G/Logo.png" alt="" />
-        </div>
-        <div className="flex-none">
-          <ul className="menu menu-horizontal px-1">
-            <li>
-              <details>
-                <summary><NavLink to='/'>Home</NavLink></summary>
-                <ul className="p-2 bg-base-100">
-                  <li>
-                   <NavLink to='/donation'>Donation</NavLink>
-                  </li>
-                  <li>
-                  <NavLink to='/statistics'>Statistics</NavLink>
-                  </li>
-                </ul>
-              </details>
-            </li>
-          </ul>
-        </div>
+    <nav className="bg-gray-300 p-4">
+      <div className="flex items-center justify-between">
+        <Link to="/">
+          <img className="w-32" src="https://i.postimg.cc/WpJRYv3G/Logo.png" alt="Logo" />
+        </Link>
+        <button
+          className="text-white md:hidden"
+          onClick={toggleNav}
+        >
+          {isNavOpen ? "Close" : "Menu"}
+        </button>
       </div>
-    </div>
+      <ul className={`md:hidden ${isNavOpen ? "block" : "hidden"}`}>
+        <li>
+          <Link
+            to="/"
+            className="block py-2 text-white hover:text-[#FF444A]"
+            onClick={toggleNav}
+          >
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="/donation"
+            className="block py-2 text-white hover:text-[#FF444A]"
+            onClick={toggleNav}
+          >
+            Donation
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="/statistics"
+            className="block py-2 text-white hover:text-[#FF444A]"
+            onClick={toggleNav}
+          >
+            Statistics
+          </Link>
+        </li>
+      </ul>
+    </nav>
   );
 };
 
