@@ -7,12 +7,12 @@ const Statistics = () => {
   const totalCards = cards.length;
   const donatedCards = getSavedDonation().length;
 
-  const donatedPercentage = (donatedCards / totalCards) * 100;
-  const notDonatedPercentage = 100 - donatedPercentage;
+  const donatedPercentage = ((donatedCards / totalCards) * 100).toFixed(2);
+  const notDonatedPercentage = (100 - donatedPercentage).toFixed(2);
 
   const data = [
-    { name: 'Your Donation', value: donatedPercentage },
-    { name: 'Total Donation', value: notDonatedPercentage },
+    { name: 'Your Donation', value: parseFloat(donatedPercentage) }, 
+    { name: 'Total Donation', value: parseFloat(notDonatedPercentage) }, 
   ];
 
   const colors = ['#00C49F', '#FF444A'];
