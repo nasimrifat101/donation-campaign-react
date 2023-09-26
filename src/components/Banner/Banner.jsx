@@ -13,7 +13,7 @@ const Banner = ({setSearchQuery}) => {
         <div
           className="hero h-[400px]"
           style={{
-            backgroundImage: "url(src/assets/bg.PNG)",
+            backgroundImage: "url(https://i.postimg.cc/SKzjNPdc/bg.png)",
           }}
         >
           <div className="hero-overlay bg-white bg-opacity-80"></div>
