@@ -36,9 +36,9 @@ const DonationDetails = () => {
           <span>Donate</span> ${price}
         </button>
       </div>
-      <div className="pt-10">
-        <h2 className="text-4xl font-semibold">{title}</h2>
-        <p className="text-lg py-5">{description}</p>
+      <div className="pt-10 px-4 md:px-0"> 
+        <h2 className="text-2xl md:text-4xl font-semibold">{title}</h2>
+        <p className="text-base md:text-lg py-3">{description}</p>
       </div>
       <ToastContainer />
     </div>

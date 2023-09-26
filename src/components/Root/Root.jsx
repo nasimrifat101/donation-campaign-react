@@ -5,14 +5,14 @@ import MobileNav from "../MobileNav/MobileNav";
 const Root = () => {
   return (
     <div>
-      <div className="max-w-5xl mx-auto pt-5">
+      <div className="max-w-5xl mx-auto lg:pt-5">
         <div className="hidden md:block">
-          <Header />
+          <Header></Header>
         </div>
         <div className="md:hidden">
-          <MobileNav />
+          <MobileNav></MobileNav>
         </div>
-        <Outlet />
+        <Outlet></Outlet>
       </div>
     </div>
   );
