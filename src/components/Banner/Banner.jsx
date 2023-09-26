@@ -1,7 +1,10 @@
+
 /* eslint-disable react/prop-types */
 const Banner = ({setSearchQuery}) => {
+  
+  
     const handleSearch = (e) => {
-        setSearchQuery(e.target.value); // Update the searchQuery in the parent component
+        setSearchQuery(e.target.value);
       };
 
   return (

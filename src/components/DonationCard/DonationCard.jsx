@@ -1,6 +1,6 @@
+/* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
 
-/* eslint-disable react/prop-types */
 const DonationCard = ({ donation }) => {
   const { img_squre, title, category, card_bg, category_bg, text_bg, price, btn_bg } = donation;
 

@@ -4,7 +4,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 
 const ErrorPage = () => {
   return (
-    <div className="grid grid-cols-2 gap-20 m-20 ml-40">
+    <div className="grid md:grid-cols-2 gap-20 md:m-20 lg:ml-40">
       <div>
         <div className="text-7xl font-bold bg-gradient-to-r from-indigo-500 via-purple-400 to-pink-300 ... bg-clip-text text-transparent">
           BOO~ <br />
@@ -21,7 +21,7 @@ const ErrorPage = () => {
           </Link>
         </div>
       </div>
-      <div>
+      <div className="mx-20 md:mx-0">
         <img className="h-96" src="/src/assets/ghost.png" alt="" />
        
       </div>

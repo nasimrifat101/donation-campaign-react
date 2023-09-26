@@ -28,7 +28,7 @@ const Header = () => {
             <img className="w-48" src="src/assets/Logo.PNG" alt="" />
           </Link>
         </div>
-        <div className="navbar-end flex">
+        <div className="navbar-end flex justify-between md:justify-end">
           <ul className="menu-horizontal space-x-6">{links}</ul>
         </div>
       </div>
